@@ -1,16 +1,17 @@
-﻿
-namespace SolarSystemApp;
+﻿using Microsoft.Extensions.DependencyInjection;
 
-public partial class App : Application
+namespace SolarSystemApp
 {
-	public App()
-	{
-		InitializeComponent();
-	}
-
-    protected override Window CreateWindow(IActivationState? activationState)
+    public partial class App : Application
     {
-        return new Window(new AppShell());
-    }
+        public App()
+        {
+            InitializeComponent();
+        }
 
+        protected override Window CreateWindow(IActivationState? activationState)
+        {
+            return new Window(new AppShell());
+        }
+    }
 }

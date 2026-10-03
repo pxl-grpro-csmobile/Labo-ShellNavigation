@@ -14,6 +14,8 @@ De applicatie bestaat momenteel uit allemaal aparte pagina’s, namelijk:
 Implementeer een logische navigatiestructuur m.b.v. de Flyout navigatie. Voorzie ook een Header en icoontjes bij de Flyout Items. 
 Icoontjes zijn beschikbaar in de map `\Resources\Images`. Het hamburgermenu moet ook vervangen worden door een ander icoontje.
 
+De kleuren zijn momenteel ook totaal verkeerd: zoek uit waar de vreemde kleuren vandaan komen! 
+
 Voorbeeld van een mogelijke Flyout navigatiestructuur:
 
 ![<img src="assets/ex1_2.png" width="250"/>](assets/ex1_2.png) 
